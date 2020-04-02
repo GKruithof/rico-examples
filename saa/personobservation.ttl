@@ -9,8 +9,8 @@
 
 <http://example.com/nummer1>
     a rico:RecordSet ;
-    rico:hasTitle "Archief van de Burgerlijke Stand van de Gemeente Sloten" ;
-    rico:creationDate "1811 - 1920" ;
+    rico:title "Archief van de Burgerlijke Stand van de Gemeente Sloten" ;
+    rico:date "1811 - 1920" ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Fonds> ;
     rico:accumulatedBy <http://www.gemeentegeschiedenis.nl/gemeentenaam/Sloten_NH> ;
     rico:heldBy <https://stadsarchief.amsterdam.nl> ;
@@ -18,15 +18,15 @@
 
 <http://example.com/nummer2>
     a rico:RecordSet ;
-    rico:hasTitle "Geboorten" ;
+    rico:title "Geboorten" ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
     rico:identifier "1" ;
     rico:includedIn <http://example.com/nummer1> .
 
 <http://example.com/nummer3>
     a rico:RecordSet ;
-    rico:hasTitle "Registers van geboorteakten. Met eenjarige tafels aan het eind van ieder jaar." ;
-    rico:creationDate "1811-1912" ;
+    rico:title "Registers van geboorteakten. Met eenjarige tafels aan het eind van ieder jaar." ;
+    rico:date "1811-1912" ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#Series> ;
     rico:identifier "1-15" ;
     rico:includedIn <http://example.com/nummer2> ;
@@ -34,7 +34,7 @@
 
 <http://example.com/nummer4>
     a rico:RecordSet ;
-    rico:creationDate "1893-1897" ;
+    rico:date "1893-1897" ;
     rico:hasRecordSetType <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#File> ;
     rico:identifier "12" ;
     rico:includedIn <http://example.com/nummer3> ;
@@ -47,14 +47,14 @@
 
 <http://example.com/nummer4_ins1>
     a rico:Instantiation ;
-    rico:hasTitle "Scan van spread pagina's 6 en 7" ;
-    rico:creationDate "2005-03-04" ;
+    rico:title "Scan van spread pagina's 6 en 7" ;
+    rico:date "2005-03-04" ;
     rico:instantiates <http://example.com/nummer4> .
 
 <http://example.com/nummer5>
     a rico:Record ;
-    rico:hasTitle "Geboorteakte van Petronella Colla" ;
-    rico:creationDate "1897-03-22" ;
+    rico:title "Geboorteakte van Petronella Colla" ;
+    rico:date "1897-03-22" ;
     rico:includedIn <http://example.com/nummer4> ;
     rico:isInstantiatedBy <http://example.com/nummer4_ins1> ;
     rico:recordResourceExtent "1 halve pagina" .
