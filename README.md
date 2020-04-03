@@ -4,6 +4,7 @@ This repo contains some examples using the Records in Contexts Ontology (RiC-O) 
 
 Containing:
 * City Archives Amsterdam (SAA)
+* Wim Crouwel Institute: Dutch Archives on Graphic Design ([NAGO](http://nago.nl))
 
 
 
